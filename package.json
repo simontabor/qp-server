@@ -1,0 +1,27 @@
+{
+  "name": "qp-server",
+  "version": "0.0.1",
+  "description": "A server to view stats on QP",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qp",
+    "server",
+    "queue",
+    "process",
+    "monitor",
+    "jobs"
+  ],
+  "author": "Simon Tabor",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "~0.8.3",
+    "batch": "~0.3.2",
+    "debug": "~0.7.2",
+    "express": "~3.2.5",
+    "ejs": "~0.8.4",
+    "socket.io": "~0.9.14"
+  }
+}
